@@ -1,0 +1,46 @@
+
+@font-face{
+    font-family: 'Open-Sans';
+    src:url('../fonts/OpenSans-Regular.ttf') format("truetype"),
+    url('../fonts/OpenSans-Regular?u6i58f#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'newIconFont';
+  src:  url('../fonts/icon/newIconFont.eot?u6i58f');
+  src:  url('../fonts/icon/newIconFont.eot?u6i58f#iefix') format('embedded-opentype'),
+    url('../fonts/icon/newIconFont.ttf?u6i58f') format('truetype'),
+    url('../fonts/icon/newIconFont.woff?u6i58f') format('woff'),
+    url('../fonts/icon/newIconFont.svg?u6i58f#newIconFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'newIconFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-garanty:before {
+  content: "\e900";
+}
+.icon-elivery:before {
+  content: "\e901";
+}
+.icon-reputation:before {
+  content: "\e902";
+}
+.icon-economy:before {
+  content: "\e903";
+}
