@@ -1,7 +1,8 @@
 # MyFreedom
 https://loshakovaanna.github.io/MyFreedom/
 
-
-using float
-
-adaptive design
+* HTML
+* CSS
+* using float
+* adaptive design
+* create new icon-font
